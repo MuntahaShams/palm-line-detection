@@ -15,7 +15,7 @@ from tenacity import retry, wait_exponential
 # Configuration
 S3_BUCKET = "palm-reader"
 MODEL_S3_PATH = "s3://palm-reader/model-weights/best5.pt"
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 PALM_CLASSES = {0: 'Fate-Line', 1: 'Head-Line', 2: 'Heart-Line', 3: 'Life-Line'}
 
 # Initialize clients
