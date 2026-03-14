@@ -1,0 +1,6 @@
+boto3
+ultralytics
+openai
+numpy
+opencv-python
+tenacity
